@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List Vanilla Js</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">ToDo List</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="to-do">
+                    <h3 class="to-do__title">Current tasks</h3>
+                    <ul class="to-do__list">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="add-task">
+                    <h3 class="add-task__title">
+                        Add task
+                    </h3>
+                    <div class="add-task__form">
+                        <div class="form-group">
+                            <div class="textarea">
+                                <label class="textarea__label">
+                                    <textarea class="textarea__control" name="writeTask" rows="3" placeholder="Enter task"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary add-task__submit">Add task</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="completed-tasks">
+                    <h3 class="completed-tasks__title">
+                        Completed tasks
+                    </h3>
+                    <ul class="completed-tasks__list">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="load-save">
+                    <h3 class="load-save__title">Load & Save task list</h3>
+                    <div class="load-save__wrap-buttons">
+                        <button class="btn btn-success load-save__load">
+                            Load
+                        </button>
+                        <button class="btn btn-info load-save__save">
+                            Save
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

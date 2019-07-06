@@ -1,0 +1,22 @@
+.checkbox {
+
+}
+
+.checkbox__label {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.checkbox__control {
+    margin-right: 7px;
+}
+
+.checkbox__text {
+
+}
+
+.checkbox__control:checked + .checkbox__text{
+    color: darkgray;
+    text-decoration: line-through;
+}

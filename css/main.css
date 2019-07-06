@@ -1,0 +1,22 @@
+@import "textarea.css";
+@import "checkbox.css";
+@import "to-do.css";
+@import "add-task.css";
+@import "completed-tasks.css";
+@import "load-save.css";
+@import "delete.css";
+@import "edit.css";
+@import "edit-input.css";
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+label {
+    margin: 0;
+}
+
+.wrap-item {
+    position: relative;
+}

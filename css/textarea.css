@@ -1,0 +1,20 @@
+.textarea {
+
+}
+
+.textarea__label {
+    width: 100%;
+}
+
+.textarea__control {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.textarea__text {
+    display: block;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.completed-tasks {
+
+}
+
+.completed-tasks__list {
+    padding: 10px 15px;
+    height: 160px;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.completed-tasks__item {
+    position: relative;
+}

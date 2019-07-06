@@ -1,0 +1,7 @@
+.edit.btn {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    line-height: 0;
+}
